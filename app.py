@@ -7,8 +7,8 @@ st.title("QuantLab Dashboard - Highlights")
 
 # Fetch data
 s3_data = fetch_s3_data('quantlab-bucket', 'breadth_data.json')
-api_key_fmp = "your_fmp_api_key"  # Replace with your FMP API key
-api_key_polygon = "your_polygon_api_key"  # Replace with your Polygon API key
+api_key_fmp = "dFuiULd9WoGFngH1eB4fMn2qfjd6bxYI"  # Replace with your FMP API key
+api_key_polygon = "FoBd11YK9pgozZs2p7KSO88CNpLMIhh5"  # Replace with your Polygon API key
 end_date = datetime(2025, 5, 27)
 start_date = end_date - timedelta(days=365)
 
